@@ -1,0 +1,118 @@
+:root{
+    --pink: #F20089;
+    --very-light-pink: #E1D4F0;
+    --light-gray: #D7DEF1;
+    --black: #081214;
+    --transparent: rgba(0, 0, 0, 0);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--black);
+    color: var(--very-light-pink);
+    font-style: normal;
+}
+
+/* headings & texts */
+
+.title-dot::after{
+    content: ".";
+    color: var(--pink);
+}
+
+.h1-style{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 150%;
+}
+
+.h2-style{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 150%;
+}
+
+.h3-style{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.h4-style{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.h5-style{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.h6-style{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.text-style{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    padding-bottom: 1rem;
+}
+
+.a-style{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--pink);
+}
+
+.a-style:hover{
+    color: var(--very-light-pink);
+    cursor: pointer;
+}
+
+/* buttons */
+
+.primary-button-style{
+    display: flex;
+    width: fit-content;
+    padding: 12px 24px;
+    border: 2px solid var(--pink);
+    background-color: var(--transparent);
+}
+
+.primary-button-style:hover{
+    background-color: var(--pink);
+    color: var(--black);
+}
+
+
+/* colors */
+
+.pink{
+    color: var(--pink);
+}
+
+.very-light-pink{
+    color: var(--very-light-pink);
+}
+
+.black{
+    color: var(--black);
+}
+
+.light-gray{
+    color: var(--light-gray);
+}
