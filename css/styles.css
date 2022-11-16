@@ -16,6 +16,9 @@ body{
     background-color: var(--black);
     color: var(--very-light-pink);
     font-style: normal;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* headings & texts */
@@ -45,8 +48,10 @@ body{
 
 .h4-style{
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 150%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
 }
 
 .h5-style{
@@ -65,22 +70,31 @@ body{
     font-weight: 300;
     font-size: 14px;
     line-height: 150%;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .a-style{
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 150%;
     letter-spacing: 0.3em;
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--pink);
 }
 
-.a-style:hover{
-    color: var(--very-light-pink);
+.link-style:hover{
+    color: var(--pink);
     cursor: pointer;
+}
+
+/* tags */
+
+.tag-style{
+    display: flex;
+    width: fit-content;
+    padding: 8px 16px;
+    border: 2px solid var(--pink);
+    background-color: var(--transparent);
 }
 
 /* buttons */
@@ -115,4 +129,95 @@ body{
 
 .light-gray{
     color: var(--light-gray);
+}
+
+/* header */
+
+.container-header{
+    width: 100%;
+    max-width: 1272px;
+    display: flex;
+    justify-content: space-between;
+    height: 96px;
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+
+/* sections */
+
+.container{
+    width: 1272px;
+}
+
+.section-container{
+    display: flex;
+    padding: 5rem 0;
+}
+
+.two-column{
+    width: 50%;
+}
+
+.title-section{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-bottom: 48px;
+}
+
+/* hero section styles */
+
+.hero-section-left{
+    display: flex;
+    justify-content: end;
+}
+
+.hero-section-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-hero-section{
+    max-width: 520px;
+    padding: 2.5rem 0rem 1.5rem 0rem;
+}
+
+.button-hero-section{
+    display: flex;
+    gap: 12px;
+}
+
+/* about me section */
+
+.about-me-section{
+    gap: 96px;
+}
+
+.about-left{
+    background-color: #ffffff0c;
+    padding: 2.5rem;
+    border-radius: 16px;
+}
+
+.tags-section{
+    display: flex;
+    gap: 10px;
+    padding: 8px 0px 20px 0px;
+}
+
+/* images styles */
+
+.image-border{
+    width: 332px;
+    height: 479px;
+    border: 2px solid var(--pink);
+    position: absolute;
+    top: 144px;
+    right: 211px;
 }
