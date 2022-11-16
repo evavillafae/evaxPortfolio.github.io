@@ -154,6 +154,11 @@ body{
     align-items: center;
 }
 
+.main-logo{
+    width: 51px;
+    height: 91px;
+}
+
 /* sections */
 
 .container{
@@ -211,6 +216,11 @@ body{
 .button-hero-section{
     display: flex;
     gap: 12px;
+}
+
+.image-hero-section{
+    width: 413px;
+    height: 557.6px;
 }
 
 /* about me section */
@@ -317,6 +327,16 @@ body{
     padding-bottom: 2rem;
 }
 
+.icon-folder{
+    width: 50px;
+    height: 40px;
+}
+
+.project-icon-external-links{
+    width: 25px;
+    height: 25px;
+}
+
 /* contact */
 
 .contact-section{
@@ -331,7 +351,7 @@ body{
 .contact-icons-social-media{
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.7rem;
 }
 
 .contact-text{
@@ -342,4 +362,5 @@ body{
 
 .social-media-icon{
     height: 18px;
+    width: 24px
 }
