@@ -125,9 +125,17 @@ body{
 .tag-style{
     display: flex;
     width: fit-content;
+    flex-wrap: wrap;
     padding: 8px 16px;
     border: 2px solid var(--pink);
     background-color: var(--transparent);
+}
+
+.tags-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 8px 0px 20px 0px;
 }
 
 /* buttons */
@@ -177,7 +185,7 @@ body{
     max-width: 1272px;
     display: flex;
     justify-content: space-between;
-    height: 96px;
+    padding: 1.5rem 0rem;
     background-color: var(--black);
 }
 
@@ -188,7 +196,7 @@ body{
 
 .main-logo{
     width: 51px;
-    height: 91px;
+    height: auto;
 }
 
 .nav-item{
@@ -311,8 +319,6 @@ a > img:hover {
     gap: 4px;
     padding-bottom: 48px;
 }
-
-
 
 /* footer / contact */
 
